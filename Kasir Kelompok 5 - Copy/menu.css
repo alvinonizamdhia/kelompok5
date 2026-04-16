@@ -1,0 +1,277 @@
+body {
+    background-image: url(assets/gedung\ sate..png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 360px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px) contrast(90%);
+    -webkit-backdrop-filter: blur(5px) contrast(90%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 28px;
+}
+
+.container2{
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.kotak {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #A0522D;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    border: 1px solid #8B4513;
+}
+
+a:hover {
+    background-color: #8B4513;
+}
+
+input[type="text"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    border-radius: 8px;
+    color: #333333;
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 20px;
+    color: #F5F5DC;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.15s ease;
+    font-weight: bold;
+    background: #5D4037
+}
+
+button:hover {
+    background: #4E342E;
+    transform: translateY(-2px);
+}
+
+.menu {
+    background-color: rgba(245, 245, 220, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #A0522D;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    min-width: 25%;
+    height: max-content;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu input[type="number"] {
+    padding: 5px;
+    border: 1px solid #A0522D;
+    border-radius: 6px;
+    text-align: center;
+    float: right;
+    background-color: rgba(245, 245, 220, 0.8);
+}
+#menu-info {
+    display: flex;
+    padding: 2px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: rgba(245, 245, 220, 0.9);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #A0522D;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #A0522D;
+    text-align: left;
+}
+
+table th {
+    background-color: #D4A017;
+    color: white;
+    text-transform: bold;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(245, 245, 220, 0.6);
+}
+.alert {
+    background: rgba(245, 245, 220, 0.9);
+    border: 1px solid #A0522D;
+    color: #8B4513;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    color: #fff;
+}
+.menu p {
+    color: #8B4513;
+}
+h1, h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.admin {
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    min-width: 20%;
+    transition: background-color 0.3s ease;
+    background: rgba(141, 129, 129, 0.37);
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.admin:hover {
+    background: rgba(255, 255, 255, 0.25); 
+    border-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-2px)
+}
+
+.batal {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.batal:hover {
+    background: rgba(231, 76, 60, 0.2);
+    border-color: #e74c3c;
+    color: #e74c3c;
+    transform: translateY(-2px);;
+}
+
+.btn {
+    margin: 10px 0 0 0;
+}
+
+.menu-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products {
+    flex: 2;
+    width: 50%;
+}
+
+.cart {
+    flex: 1;
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid #D4A017;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+.cart h2{
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.cart button[type="submit"] {
+    margin-top: 15px;
+    background: #5D4037;
+    color: white;
+    transition: all 0.3s ease
+}
+.pembayaran option , input[type="number"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 220, 0.8);
+}
+
+
+.bayar {
+    background: bisque;
+}
